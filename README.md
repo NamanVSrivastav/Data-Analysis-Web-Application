@@ -105,6 +105,7 @@ Provides the logic for rendering templates with analysis results.
 - Implement more advanced data analysis techniques.
 - Allow users to select multiple columns for analysis.
 - Enhance the user interface with additional styling and interactivity.
+- Currently, the application analyzes only the "Sleep Duration" column. In future enhancements, we plan to support analysis of other numerical columns as well.
 
 
 
