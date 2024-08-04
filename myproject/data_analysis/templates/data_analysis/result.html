@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis Results</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Analysis Results</h1>
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% else %}
+            <p>Mean: {{ mean }}</p>
+            <p>Median: {{ median }}</p>
+            <p>Standard Deviation: {{ std_dev }}</p>
+            <img src="data:image/png;base64,{{ image_base64 }}" alt="Plot">
+
+            <h2>First 10 rows</h2>
+            <div class="table-responsive">
+                {{ first_10_rows_html|safe }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
