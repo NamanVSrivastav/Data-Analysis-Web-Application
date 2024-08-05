@@ -88,7 +88,7 @@ Provides the logic for rendering templates with analysis results.
 
 3. **Sample CSV File**
 
-- For testing purposes, include a sample CSV file named sample_data.csv in the root directory of the project. This file can contain data similar to the following structure:
+- For testing purposes, include a sample CSV file named Sleep_health_and_lifestyle_dataset.csv in the root directory of the project. This file can contain data similar to the following structure:
 
 - Name,Age,Height,Weight,Sleep Duration
 - John Doe,25,175,70,7
