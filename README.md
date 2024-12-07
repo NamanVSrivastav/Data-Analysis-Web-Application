@@ -52,8 +52,8 @@ This Django-based web application allows users to upload CSV files, perform data
 ### Installation
 
 1. **Clone the Repository**:
-   - git clone https://github.com/NamanVSrivastav/Django-Project-VE3.git
-   - cd django-csv-analysis
+   - git clone https://github.com/NamanVSrivastav/Data-Analysis-Web-Application.git
+   - cd Data-Analysis-Web-Application
     
 2. **Create and Activate a Virtual Environment**:
    - python -m venv env
